@@ -1,0 +1,36 @@
+.container
+	.hero-unit
+		%h1
+			Hi Sawubona Hola سلام Bonjour 
+		%p
+			I'm a Rubyist, part-time hacker, full-time traveler and I'm currently working in Denver, CO.
+		%p
+			%a.btn.btn-primary.btn-large{:href => "http://xacaxulu.com"} journal
+
+	.row
+		.span4
+			%h2
+				gSchool
+			%p
+				gSchool provides real world technical and business training for motivated individuals. The progams we offer are in-person, full-time, and apply real-world situational learning.
+			%p
+				%a.btn{:href => 'http://gschool.it'} más
+		.span4
+			%h2
+				méthode
+			%p
+				Ruby, Rails, Sinatra, javascript, pairing, testing, RSpec, MiniTest, GitHub, agile, GNU/Linux, MacOS, vim, sublimetext
+			%br
+				%a.btn{:href => '/cv'} plus
+		.span4
+			%h2
+				work
+			%p
+				Non-traditional, austere, developing countries, global south, open source
+			%br
+			%p
+				%a.btn{:href => '/contact'} View Details
+
+	%hr
+
+	%div= haml :footer
