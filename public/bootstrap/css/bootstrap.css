@@ -56,7 +56,7 @@ img {
   max-width: 200px;
   min-height: 300px;
   border: 0;
-  padding-left: 130px;
+  margin-left: 130px;
   -ms-interpolation-mode: bicubic;
 }
 button,
